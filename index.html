@@ -82,7 +82,7 @@
                 </script>
               </td>
               <td style="padding:20px;width:75%;vertical-align:middle">
-                <a href="https://your-link-to-meta-tokens-paper">
+                <a href="data/meta-tokens-draft.pdf">
                   <span class="papertitle">Investigating Language Model Dynamics using Meta-Tokens</span>
                 </a>
                 <br> <strong>Alok Shah</strong>,
@@ -90,13 +90,13 @@
                 <a href="https://https://khushg.vercel.app/">Khush Gupta</a>, 
                 <a href="https://vedantgaur.com/">Vedant Gaur</a>
                 </br>
-                <em>NeurIPS ATTRIB Workshop Paper</em>, 2024
+                <em>NeurIPS ATTRIB</em>, 2024
                 <br>
 
-                <!-- <a href="https://arxiv.org/abs/meta_tokens_paper">arXiv</a> -->
+                <!-- <a href="data/meta-tokens-draft.pdf">arXiv</a> -->
                 <p></p>
                 <p>
-                  Explored novel meta-attention mechanism using meta-tokens to enhance model reasoning and interpretability in language models.
+                  Explored how to coerce communication between token-level checkpoints for more interpretable, capable models
                 </p>
               </td>
             </tr>
@@ -119,7 +119,7 @@
                 </script>
               </td>
               <td style="padding:20px;width:75%;vertical-align:middle">
-                <a href="https://your-link-to-weak-to-strong-paper">
+                <a href="data/w2s-draft.pdf">
                   <span class="papertitle">Weak-to-Strong In-Context Optimization of Language Model Reasoning</span>
                 </a>
                 <br>
@@ -128,9 +128,9 @@
                 <a href="https://vedantgaur.com/">Vedant Gaur</a>,
                 <a href="https://https://khushg.vercel.app/">Khush Gupta</a>
                 </br>
-                <em>NeurIPS ATTIB Workshop Paper</em>, 2024
+                <em>NeurIPS ATTRIB</em>, 2024
                 <br>
-                <!-- <a href="https://arxiv.org/abs/weak_to_strong_paper">arXiv</a> -->
+                <!-- <a href="data/w2s-draft.pdf">arXiv</a> -->
                 <p></p>
                 <p>
                   Developed in-context optimization method leveraging weak learners to improve reasoning in strong large language models without additional finetuning
@@ -138,6 +138,80 @@
               </td>
             </tr>
             
+
+
+            <tr onmouseout="alfllm_stop()" onmouseover="alfllm_start()">
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <div class="one">
+                  <img src='images/conformal-ql.png' width=100%>
+                </div>
+                <script type="text/javascript">
+                  function alfllm_start() {
+                    document.getElementById('alfllm_image').style.opacity = "1";
+                  }
+            
+                  function alfllm_stop() {
+                    document.getElementById('alfllm_image').style.opacity = "0";
+                  }
+                  alfllm_stop()
+                </script>
+              </td>
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <!-- <a href="https://your-link-to-alfllm-paper"> -->
+                  <span class="papertitle">Conformal Q-Learning: Distriution-Free Uncertainty Quantification for Offline RL</span>
+
+                </a>
+                <br> <strong>Alok Shah</strong>,  Nikhil Kumar, Mohul Aggarwal, Arjun Arasappan, Vadim Popov
+                </br>
+                
+                <br>
+                <!-- <a href="https://your-project-page">project page</a>
+                <a href="https://arxiv.org/abs/alfllm_paper">arXiv</a> -->
+                <p></p>
+                <p>
+                  Integrating conformal prediction into offline reinforcement learning, providing statistically robust uncertainty quantification while addressing overestimation bias in Q-value functions
+                </p>
+              </td>
+            </tr>
+            
+
+
+            <tr onmouseout="alfllm_stop()" onmouseover="alfllm_start()">
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <div class="one">
+                  <img src='images/dc-ar.png' width=100%>
+                </div>
+                <script type="text/javascript">
+                  function alfllm_start() {
+                    document.getElementById('alfllm_image').style.opacity = "1";
+                  }
+            
+                  function alfllm_stop() {
+                    document.getElementById('alfllm_image').style.opacity = "0";
+                  }
+                  alfllm_stop()
+                </script>
+              </td>
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="data/dc-ar-draft.pdf">
+                  <span class="papertitle">Deep Compression with Adversarial Robustness via Decision Boundary Smoothing</span>
+                </a>
+                <br> <strong>Alok Shah</strong>, Michael Shao
+                </br>
+                
+                <br>
+                <!-- <a href="data/dc-ar-draft.pdf">arXiv</a> -->
+                <p></p>
+                <p>
+                  ESE 5390 Final Project: A unified framework for model compression and adversarial robustness by exploiting the geometry of class boundaries 
+                </p>
+              </td>
+            </tr>
+
+
+
+
+
 
 
             <tr onmouseout="alfllm_stop()" onmouseover="alfllm_start()">
@@ -157,10 +231,10 @@
                 </script>
               </td>
               <td style="padding:20px;width:75%;vertical-align:middle">
-                <a href="https://your-link-to-alfllm-paper">
+                <!-- <a href="https://your-link-to-alfllm-paper"> -->
                   <span class="papertitle">AlfLLM: Limitations on LLMs as Reward Function Surrogates</span>
                 </a>
-                <br> <strong>Alok Shah</strong>, Alexander Kyimpopkin, Dominic Olaguera-Delogu
+                <br>Alexander Kyimpopkin, <strong>Alok Shah</strong>,  Dominic Olaguera-Delogu
                 </br>
                 
                 <br>
@@ -172,9 +246,6 @@
                 </p>
               </td>
             </tr>
-            
-
-
 
     
 
@@ -229,8 +300,10 @@
             <em>* denotes graduate level; ^ denotes head teaching assistant</em>
           </p>
           <ul>
-            <li>Machine Learning*^ (Surbhi Goel, Eric Wong, Jake Gardner) </li>
             <li>Mathematics of Machine Learning (Eric Wong) </li>
+            <li>Machine Learning*^ (Surbhi Goel, Eric Wong, Jake Gardner) </li>
+            <li>State Estimation, Control, and Reinforcement Learning** (Pratik Chaudhari) </li>
+            <li>Convex Optimization** (Nikolai Matni) </li>
         </td>
       </tr>
 
